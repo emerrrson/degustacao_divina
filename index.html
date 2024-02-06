@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Degustação Divina</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navega">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navega">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-date me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-list me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="imagens/restaurante.jpg" alt="Restaurante">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/restaurant-2.jpg" alt="Macarrão">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/restaurant-3.jpg" alt="Vinho">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="imagens/sobre-o-restaurante.jpg" class="d-block w-100 rounded" alt="">
+                    </div>
+                    <div class="col-md-7 mt-3  mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                        <p>
+                            Sabia que a inspiração para o nome "Degustação Divina" veio de uma lenda antiga que conta sobre um chef renomado que, após experimentar uma combinação perfeita de ingredientes durante um sonho, acreditou ter recebido uma revelação divina sobre gastronomia? Essa experiência única e celestial o inspirou a criar um restaurante onde cada prato é uma verdadeira experiência divina para o paladar dos clientes.                        </p>
+                        <h3 class="section-title"> Sobre <span class="text-colored">o Espaço</span></h3>
+                        <p>
+                            Imerso na elegância e sofisticação, o ambiente do restaurante "Degustação Divina" transporta os clientes para um cenário de beleza atemporal. Com sua arquitetura contemporânea e elementos clássicos meticulosamente selecionados, o espaço é um verdadeiro santuário gastronômico. Os tons suaves das paredes combinam harmoniosamente com a iluminação sutil, criando uma atmosfera acolhedora e intimista. Mesas elegantemente dispostas, adornadas com arranjos florais delicados, convidam os comensais a desfrutarem de uma experiência gastronômica inesquecível. As janelas amplas oferecem vistas deslumbrantes da cidade, enquanto a música ambiente suave completa a experiência sensorial, proporcionando um ambiente perfeito para apreciar cada sabor divino que o restaurante tem a oferecer.
+                        </p>
+                        <ul>
+                            <li>Iluminação ideial</li>
+                            <li>Vista Incrível</li>
+                            <li>Atendimento personalizado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Para todas <span class="text-colored">as ocasiões</span></h2>
+            </div>
+            <div class="row md-4">
+                <div class="col-md-4">
+                    <img src="imagens/happy-birthday.jpg" alt="" class="d-block w-100 rounded md-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-calendar-heart-fill"></i>
+                        Aniversários</h3>
+                    <p>No "Degustação Divina", celebrar um aniversário é uma experiência verdadeiramente memorável. Nossa equipe dedicada se esforça para tornar cada celebração única e especial. Ao entrar em contato conosco para reservar uma festa de aniversário, você será recebido com entusiasmo e atenção aos detalhes. Desde a personalização do menu até a decoração exclusiva da mesa, estamos comprometidos em garantir que cada momento seja perfeito para você e seus convidados.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagens/confraternization.jpg" alt="" class="d-block w-100 rounded md-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Confraternização</h3>
+                    <p>No "Degustação Divina", as festas de confraternização são mais do que simples eventos; são momentos de celebração, união e alegria. Nossa equipe se dedica a garantir que cada festa de confraternização seja memorável e repleta de momentos especiais. Ao reservar sua festa conosco, você será recebido com calor e hospitalidade. Nosso espaço elegante e acolhedor oferece o cenário perfeito para reunir colegas, amigos e familiares em uma atmosfera descontraída e sofisticada. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagens/marriege.jpg" alt="" class="d-block w-100 rounded md-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-arrow-through-heart-fill"></i>
+                        Casamentos</h3>
+                    <p>No "Degustação Divina", tornamos o seu casamento um evento inesquecível. Com um ambiente elegante e romântico, nossos chefs premiados criam um menu personalizado, enquanto nossa equipe de eventos cuida de todos os detalhes. Do planejamento à execução, garantimos que seu dia especial seja perfeito em todos os sentidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nosso <span class="text-colored"> Cardápio </span> 
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class=" fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class=" fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class=" fw-bold text-start nav-link text-colored">Entradas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class=" fw-bold text-start nav-link text-colored">Pratos principais</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link text-colored">Sobremesas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bebidas-sem-alcool">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/coca-cola.jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/juice-orange.jpg" alt="Suco de Laranja">
+                                    <h5 class="text-colored fw-bold mt-2">Suco de Laranja</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas-alcoolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/beer.jpg" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/wine.jpg" alt="Vinho">
+                                    <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/whisky.jpg" alt="Whisky">
+                                    <h5 class="text-colored fw-bold mt-2">Whisky</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="entradas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/salami-queijo-noz.jpg" alt="Salami + Queijo e Nozes">
+                                    <h5 class="text-colored fw-bold mt-2">Salami + Queijo e Nozes</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/uvas.jpg" alt="Uvas">
+                                    <h5 class="text-colored fw-bold mt-2">Uvas</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pratos-principais">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/picadinho.jpg" alt="Picadinho">
+                                    <h5 class="text-colored fw-bold mt-2">Picadinho</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/pasta.jpg" alt="Macarrão">
+                                    <h5 class="text-colored fw-bold mt-2">Macarrão</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/file de frango.jpg" alt="Filé de Frango">
+                                    <h5 class="text-colored fw-bold mt-2">Filé de Frango</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="sobremesas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/musse-de-morango.jpg" alt="Musse de Morango">
+                                    <h5 class="text-colored fw-bold mt-2">Musse de Morango</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/pudim.jpg" alt="Pudim">
+                                    <h5 class="text-colored fw-bold mt-2">Pudim</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="imagens/bolo-de-chocolate.jpg" alt="Bolo de Chocolate">
+                                    <h5 class="text-colored fw-bold mt-2">Bolo de Chocolate</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="button" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored"> 
+                            
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo n° 11, Bairro Python - São Paulo  - SP 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
